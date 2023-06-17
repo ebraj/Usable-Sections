@@ -1,7 +1,7 @@
 import "./globals.css";
-import { Urbanist } from "next/font/google";
+import { Lexend } from "next/font/google";
 
-const font = Urbanist({ subsets: ["latin"] });
+const font = Lexend({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Testimonail Section",
