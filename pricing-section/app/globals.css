@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-shadow {
+  box-shadow: -1px 11px 27px -10px rgba(192, 192, 192, 0.4);
+}
+.blueGradient {
+  background: linear-gradient(
+    66deg,
+    rgba(202, 237, 255, 1) 0%,
+    rgba(110, 201, 250, 1) 100%
+  );
+}
+.purpleGradient {
+  background: linear-gradient(
+    66deg,
+    rgba(218, 206, 255, 1) 0%,
+    rgba(159, 148, 254, 1) 100%
+  );
+}
+.orangeGradient {
+  background: linear-gradient(
+    66deg,
+    rgba(255, 220, 206, 1) 0%,
+    rgba(247, 145, 81, 1) 100%
+  );
+}
